@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#&#",
+    "#&#"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:pine_planks"
+    },
+    "&": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "midgard:pine_fence",
+    "count": 3
+  }
+}

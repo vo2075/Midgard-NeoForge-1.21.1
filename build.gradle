@@ -5,6 +5,21 @@ plugins {
     id 'idea'
 }
 
+repositories {
+    mavenLocal()
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
+}
+
 tasks.named('wrapper', Wrapper).configure {
     // Define wrapper values here so as to not have to always do so when updating gradlew.properties.
     // Switching this to Wrapper.DistributionType.ALL will download the full gradle sources that comes with
@@ -135,6 +150,7 @@ dependencies {
 
     // Example project dependency using a sister or child project:
     // implementation project(":myproject")
+    implementation "maven.modrinth:oh-the-trees-youll-grow:1.21.1-5.3.0-NeoForge"
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html

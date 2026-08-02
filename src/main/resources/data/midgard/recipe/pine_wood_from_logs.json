@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:pine_log"
+    }
+  },
+  "result": {
+    "id": "midgard:pine_wood",
+    "count": 3
+  }
+}

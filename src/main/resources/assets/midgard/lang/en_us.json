@@ -162,5 +162,12 @@
   "biome.midgard.steppe": "Steppe",
   "biome.midgard.westlands": "Westlands",
   "biome.midgard.white_shore": "White Shore",
-  "biome.midgard.xeric_shrubland": "Xeric Shrubland"
+  "biome.midgard.xeric_shrubland": "Xeric Shrubland",
+
+  "item.midgard.aspen_boat": "Aspen Boat",
+  "item.midgard.aspen_chest_boat": "Aspen Boat with Chest",
+  "item.midgard.maple_boat": "Maple Boat",
+  "item.midgard.maple_chest_boat": "Maple Boat with Chest",
+  "item.midgard.pine_boat": "Pine Boat",
+  "item.midgard.pine_chest_boat": "Pine Boat with Chest"
 }

@@ -55,6 +55,10 @@ public class ModCreativeModeTab {
                         output.accept(ModBlocks.PINE_TRUNK.get());
                         output.accept(ModBlocks.STRIPPED_PINE_TRUNK.get());
                         output.accept(ModBlocks.PINE_BRANCH.get());
+                        output.accept(ModBlocks.PINE_SIGN.get());
+                        output.accept(ModBlocks.PINE_HANGING_SIGN.get());
+                        output.accept(ModItems.PINE_BOAT.get());
+                        output.accept(ModItems.PINE_CHEST_BOAT.get());
                         output.accept(ModBlocks.PINE_LEAVES.get());
                         output.accept(ModBlocks.FALLEN_NEEDLES.get());
                         output.accept(ModBlocks.FALLEN_NEEDLE_BLOCK.get());
@@ -82,6 +86,10 @@ public class ModCreativeModeTab {
                         output.accept(ModBlocks.STRIPPED_ASPEN_TRUNK.get());
                         output.accept(ModBlocks.ASPEN_BRANCH.get());
                         output.accept(ModBlocks.ROUGH_ASPEN_BRANCH.get());
+                        output.accept(ModBlocks.ASPEN_SIGN.get());
+                        output.accept(ModBlocks.ASPEN_HANGING_SIGN.get());
+                        output.accept(ModItems.ASPEN_BOAT.get());
+                        output.accept(ModItems.ASPEN_CHEST_BOAT.get());
                         output.accept(ModBlocks.ASPEN_LEAVES.get());
                         output.accept(ModBlocks.YELLOW_ASPEN_LEAVES.get());
                         output.accept(ModBlocks.BROWN_ASPEN_LEAVES.get());
@@ -106,6 +114,10 @@ public class ModCreativeModeTab {
                         output.accept(ModBlocks.MAPLE_TRUNK.get());
                         output.accept(ModBlocks.STRIPPED_MAPLE_TRUNK.get());
                         output.accept(ModBlocks.MAPLE_BRANCH.get());
+                        output.accept(ModBlocks.MAPLE_SIGN.get());
+                        output.accept(ModBlocks.MAPLE_HANGING_SIGN.get());
+                        output.accept(ModItems.MAPLE_BOAT.get());
+                        output.accept(ModItems.MAPLE_CHEST_BOAT.get());
                         output.accept(ModBlocks.MAPLE_LEAVES.get());
                         output.accept(ModBlocks.YELLOW_MAPLE_LEAVES.get());
                         output.accept(ModBlocks.ORANGE_MAPLE_LEAVES.get());

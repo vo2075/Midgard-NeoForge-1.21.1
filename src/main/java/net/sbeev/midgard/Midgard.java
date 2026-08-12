@@ -1,8 +1,7 @@
 package net.sbeev.midgard;
 
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.level.block.ComposterBlock;
 import net.sbeev.midgard.block.ModBlocks;
+import net.sbeev.midgard.block.entity.ModBlockEntities;
 import net.sbeev.midgard.item.ModCreativeModeTab;
 import net.sbeev.midgard.item.ModItems;
 import org.slf4j.Logger;
@@ -41,6 +40,7 @@ public class Midgard {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
         ModCreativeModeTab.register(modEventBus);
 
 

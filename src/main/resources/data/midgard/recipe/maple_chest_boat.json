@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chest_boat",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "midgard:maple_boat"
+    }
+  ],
+  "result": {
+    "item": "midgard:maple_chest_boat"
+  }
+}

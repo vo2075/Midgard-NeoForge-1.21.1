@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
   "key": {
     "#": {
       "item": "midgard:aspen_planks"
     }
   },
-  "pattern": [
-    "# #",
-    "###"
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:oak_boat"
+    "item": "midgard:aspen_boat",
+    "count": 1
   }
 }

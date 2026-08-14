@@ -43,6 +43,7 @@ public abstract class LeavesBlockMixin {
                 }
             }
         }
+        ci.cancel();
     }
 
     @Inject(method = "randomTick", at = @At("HEAD"), cancellable = true)
